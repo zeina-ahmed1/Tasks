@@ -8,7 +8,7 @@ class MyTextField extends StatefulWidget {
   final String? Function(String?) validator;
   final Widget? suffixIcon;
 
-  MyTextField({
+  const MyTextField({
     super.key,
     required this.label,
     required this.keyboardType,
